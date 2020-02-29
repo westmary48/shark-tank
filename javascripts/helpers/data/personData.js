@@ -28,8 +28,7 @@ const persons = [
 
 
 const getAlivePersons = () => {
- return persons.filter
-}
-
+  return persons.filter((x) => x.isDead === false);
+};
 
 export default { getAlivePersons }
